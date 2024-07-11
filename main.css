@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .signUpBtn{
+        @apply   bg-[#FFCB45] px-5 py-2 text-white rounded-lg
+    }
+ 
+
+
+
+    /* style */
+    
+    .navlistStyle{
+        @apply hover:text-black hover:scale-110 transition-all
+    }
+    .hoverScale{
+       @apply hover:scale-105 transition-all duration-300
+    }
+  
+}
